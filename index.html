@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!--   <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Oxygen"> -->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen&effect=emboss' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="style.css"> 
+<!--
+<script src="js/clockBrain.js"> </script> -->
+<title>Dev Pomodoro</title>
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- script src="clockBrain.js">
+   
+</script> -->
+<!-- !!!!@@@@
+<h1 class="text-center">Pomodoro Clock</h1>
+
+<div class="container-fluid">
+  <div class="row">
+       <div class="col">
+       <h2 id="break-label" class="text-center">Break Length</h2>
+       <div class="text-center">
+       <div class="btn-group btn-group-lg">
+       <button id="break-decrement" onclick="breakDec()" >-</button>
+       <button id="break-length">5</button>
+       <button id="break-increment" onclick="breakInc()" >+</button>
+       </div>
+       </div>
+       </div>   
+       <div class="col"></div>
+       <div class="col">
+       <h2 id="session-label" class="text-center">Session Length</h2>
+       <div class="text-center">
+       <div class="btn-group btn-group-lg">
+       <button id="session-decrement" onclick="sessionDec()" >-</button>
+       <button id="session-length">25</button>
+       <button id="session-increment" onclick="sessionInc()" >+</button>
+       </div>
+       </div>
+       </div>
+   </div>
+   <div class="row" id="pomodoro">
+       <div class="col"></div>
+       <div class="col">
+       <h2 id="timer-label" class="text-center">Session</h2>
+ <button id="time-left" class="mx-auto d-block">25:00
+</button>
+     </div>
+       <div class="col"></div>
+   </div>
+   <div class="row">
+      <div class="col"></div>
+      <div class="col">
+      <div class="text-center">
+      <div class="btn-group btn-group-lg text-center">
+      <button type="button" class="btn btn-primary" id="start_stop" onclick="startStop()" >Start/Stop</button>
+      <button id="reset" type="button" onclick="resetTimer()" class="btn btn-dark" >Reset</button>
+      </div>
+      </div>
+      </div>
+      <div class="col"></div>
+   </div>
+</div>
+-->
+<h1>Pomodoro Clock</h1> 
+<div id="wrapper1">
+   <div id="wrapper2"><div id="timer-label" >Session</div><div id="time-left" class="font-effect-emboss">25:00</div><div id="wrapper3"><button id="start_stop"  onclick="startStop()" class="font-effect-emboss">Start/Stop</button><button id="reset" onclick="resetTimer()" class="font-effect-emboss">Reset</button></div></div>
+</div> 
+
+<div id="rect">
+<div id="break-label" >Break Length
+  <div id="bg1" ><button id="break-decrement" class="font-effect-emboss" onclick="breakDec()">-</button>
+  <button id="break-length" class="font-effect-emboss">  5 </button><button id="break-increment" class="font-effect-emboss" onclick="breakInc()">+</button></div></div>
+<div id="session-label" >Session Length
+  <div id="bg2" ><button id="session-decrement" class="font-effect-emboss" onclick="sessionDec()">-</button>
+  <button id="session-length" class="font-effect-emboss">25</button><button id="session-increment" class="font-effect-emboss" onclick="sessionInc()">+</button></div></div>
+</div>
+<div>
+<audio id="beep" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"/> 
+</div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstraphttps://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js/4.1.3/js/bootstrap.min.js"></script>
+ <script src="clockBrain.js"></script> 
+  
+    </body>
+</html>
+
+  

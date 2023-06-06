@@ -123,9 +123,9 @@ font-size: 42px;
 
 @media screen and (min-width: 550px) {
    #wrapper1 {
-     width:350px;
-     height:350px;
-     border-radius: 200px;
+     width:320px;
+     height:320px;
+     border-radius: 160px;
      font-size: 45px;
      margin: 15px auto;
    }
@@ -151,11 +151,11 @@ font-size: 42px;
 
    #break-decrement,#break-increment,
 #session-decrement, #session-increment,#break-length,#session-length {
-         height: 60px;
-         width: 60px;
-         font-size: 40px;
+         height: 40px;
+         width: 40px;
+         font-size: 32px;
 }
   #break-length, #session-length {
-    font-size: 32px;
+    font-size: 24px;
   }
   }
